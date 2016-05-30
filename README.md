@@ -1,6 +1,6 @@
 # DynDnsWithYandexPdd
 
-Script that change Yandex PDD DNS A-records to WAN IP of server when IP of the server is changed by some reason
+Script that changes Yandex PDD DNS A-records to WAN IP of server when IP of the server is changed by some reason
 
 Link to obtain API V2 token for domain:
 https://pddimp.yandex.ru/api2/admin/get_token
