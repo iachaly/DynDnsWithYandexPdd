@@ -1,5 +1,6 @@
 # DynDnsWithYandexPdd
-Script that change Yandex PDD DNS A-records to WAN IP of server when it changed by some reason
+
+Script that change Yandex PDD DNS A-records to WAN IP of server when IP of the server is changed by some reason
 
 Link to obtain API V2 token for domain:
 https://pddimp.yandex.ru/api2/admin/get_token
@@ -14,3 +15,5 @@ You can find additional info in articles from habr:
 Cron example:
 
 */5    *   *   *   *   php /var/www/dyndns/change-ip.php > /dev/null 2>&1
+
+This script is a temporary fix to revive some domains that located on server with dynamic ip.
