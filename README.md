@@ -10,3 +10,6 @@ Documentation:
 You can find additional info in articles from habr:
  - https://habrahabr.ru/post/239465/
  - https://habrahabr.ru/sandbox/102896/
+
+Cron example:
+*/5    *   *   *   *   php /var/www/dyndns/change-ip.php > /dev/null 2>&1
