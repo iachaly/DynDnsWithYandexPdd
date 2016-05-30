@@ -46,7 +46,7 @@
         return false;
     }
 
- function API1_getDomainRecords($token, $domain) {
+    function API1_getDomainRecords($token, $domain) {
         $ret = [];
         $url = 'https://pddimp.yandex.ru/nsapi/get_domain_records.xml?token='.$token.'&domain='.$domain;
         $data = wwwGet($url);
@@ -166,7 +166,7 @@
         return $ret;
     }
 
- function updateLastIp($ip) {
+    function updateLastIp($ip) {
         $lastIpLogFile = dirname(__FILE__).'/last_ip.log';
         file_put_contents($lastIpLogFile, $ip);
     }
